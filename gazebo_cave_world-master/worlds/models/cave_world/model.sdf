@@ -1,0 +1,30 @@
+<?xml version="1.0" ?>
+<sdf version="1.6">
+  <model name="lava_tube">
+    <static>true</static>
+    <link name="link">
+      <pose>0 0 0 1.570796 0 0</pose>
+      <collision name="collision">
+        <geometry>
+          <mesh>
+            <uri>model://cave_world/meshes/lava_tube.obj</uri>
+          </mesh>
+        </geometry>
+      </collision>
+      <visual name="visual">
+        <geometry>
+          <mesh>
+            <uri>model://cave_world/meshes/lava_tube.obj</uri>
+          </mesh>
+        </geometry>
+        <material>
+          <script>
+            <uri>model://cave_world/materials/scripts/lava_tube.material</uri>
+            <uri>model://cave_world/materials/textures/Rocks_Cave.png</uri>
+            <name>lava_tube</name>
+          </script>
+        </material>
+      </visual>
+    </link>
+  </model>
+</sdf>
