@@ -3,7 +3,7 @@
 
   # Gazebo world.
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find darpa_subt_worlds)/worlds/lava_tube.world"/>
+    <arg name="world_name" value="/home/aakapatel/catkin_workspaces/exploration_ws/src/Dataset-of-Gazebo-Worlds-Models-and-Maps/worlds/hospital/hospital_two_floors.world"/>
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="true"/>
